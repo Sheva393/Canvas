@@ -1,0 +1,91 @@
+
+ * {
+	 box-sizing: border-box;
+	 user-select: none;
+	 margin: 0;
+	 padding: 0;
+	 
+}
+ *:focus {
+	 outline: none;
+}
+ body {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 min-height: 100vh;
+	 background-color: rgb(247, 251, 255);
+}
+ .app {
+	 width: 700px;
+	 height: 500px;
+	 border: 2px solid black;
+	 background-color: white;
+	 position: relative;
+	 border-radius: 5px;
+	 display: flex;
+}
+ .menu {
+	 position: absolute;
+	 left: 750px;
+	 top: 70px;
+}
+ .menu-button {
+	 background-color: #ff00ea;
+	 text-transform: uppercase;
+	 line-height: 25px;
+	 width: 130px;
+	 padding: 5px 0;
+	 text-align: center;
+	 cursor: pointer;
+	 display: block;
+	 margin-bottom: 30px;
+	 border-radius: 5px;
+	 border: none;
+	 color: white;
+	 transition: all 0.2s ease;
+}
+ 
+
+
+ header {
+	 height: 40px;
+	 background-color: #e6e6e6;
+	 text-align: center;
+	 border-bottom: 2px solid black;
+}
+ header h3 {
+	 line-height: 40px;
+}
+ .figures {
+	 position: relative;
+}
+ .figures-block {
+	 width: 50px;
+	 height: 50px;
+	 background-color: rgb(242, 255, 0);
+	 position: absolute;
+	 top: 50px;
+	 left: 50px;
+	 cursor: grab;
+}
+ .figures-circle {
+	 width: 50px;
+	 height: 50px;
+	 background-color: rgb(46, 4, 232);
+	 position: absolute;
+	 top: 150px;
+	 left: 50px;
+	 border-radius: 50%;
+	 cursor: grab;
+}
+ .figures-wrap {
+	 width: 150px;
+	 border-right: 2px solid black;
+}
+ .canvas-wrap {
+	 width: 550px;
+}
+ .canvas-wrap {
+	 position: relative;
+}
